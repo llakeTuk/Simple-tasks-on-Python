@@ -1,15 +1,18 @@
+import math
 A = 0
-print("welcome to leap year check")
-def leapyear(A):
-    A = int(input("Input year: "))
-    if A % 4 == 0:
-        return print('year is leap')
-    elif A % 400 == 0:
-        return print('year is leap')
-    else:
-        return print('year is not leap')
+p = 0
+s = 0
+d = 0
+B = (p, s, d)
+def square(A):
+    A = int(input("Input value of square side: "))
+    p = A * 4
+    s = A ** 2
+    d = A * math.sqrt(2)
+    return p, s, d
 i = 'y'
 while i == 'y':
-    leapyear(A)
-    i = input("Would you like to start new check?(y/n) ")
+    B = square(A)
+    print(B)
+    i = input("Would you like to start new calculation?(y/n) ")
 print("Goodbye")
