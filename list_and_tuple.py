@@ -7,4 +7,5 @@ while y == 'y':
     tuple_data = tuple(list_data)
     print('List: ', list_data)
     print('Tuple: ', tuple_data)
+    print(f'First: {list_data[0]}; last: {list_data[-1]}')
     y = input('restart?(y/n): ')
