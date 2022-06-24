@@ -8,4 +8,9 @@ while y == 'y':
     print('List: ', list_data)
     print('Tuple: ', tuple_data)
     print(f'First: {list_data[0]}; last: {list_data[-1]}')
+    largest_number = list_data[0]
+    for i in list_data:
+        if i > largest_number:
+            largest_number = i
+    print('largest: ', largest_number)
     y = input('restart?(y/n): ')
