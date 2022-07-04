@@ -1,9 +1,6 @@
 import math
 A = 0
-p = 0
-s = 0
-d = 0
-B = (p, s, d)
+B = (0, 0, 0)
 def square(A):
     A = int(input("Input value of square side: "))
     p = A * 4
