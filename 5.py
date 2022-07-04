@@ -9,7 +9,7 @@ def bank(value, years, percent):
     while years != 0:
         years -= 1
         value *=(1 + (percent / 100))
-    print("value is ",round(value, 2))
+    print("value is ",round(value, 3))
 i = 'y'
 while i == 'y':
     bank(value, years, percent)
