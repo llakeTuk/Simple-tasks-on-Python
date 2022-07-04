@@ -18,5 +18,5 @@ def calculation(A, B, Operator):
 i = 'y'
 while i == 'y':
     calculation(A, B, Operator)
-    i = input("Would you like to start new calculation?(y/n) ")
+    i = input("restart?(y/n) ")
 print("Goodbye")
