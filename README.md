@@ -5,5 +5,5 @@ Simple tasks to start programming on Python
 2 - checks is entered year is a leap year
 3 - calculates perimeter, area and diagonal of square 
 4 - determines if number is simple
-5
+5 - counts bank deposit
 6
