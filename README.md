@@ -6,4 +6,4 @@ Simple tasks to start programming on Python
 3 - calculates perimeter, area and diagonal of square 
 4 - determines if number is simple
 5 - counts bank deposit
-6
+6 - shows season to which month belongs
