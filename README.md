@@ -7,3 +7,4 @@ Simple tasks to start programming on Python
 4 - determines if number is simple
 5 - counts bank deposit
 6 - shows season to which month belongs
+sum_in_number - count sum of digits in entered number
