@@ -7,3 +7,4 @@ while y == 'y':
     else:
         print('This is not polyndrom')
     y = input("Restart?(y/n): ")
+print('goodbye')
