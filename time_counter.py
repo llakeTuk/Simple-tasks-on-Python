@@ -9,3 +9,4 @@ while y == 'y':
     seconds %= 60
     print(f'{days}:{hours}:{minutes}:{seconds}')
     y = input('restart?(y/n): ')
+print('goodbye')
