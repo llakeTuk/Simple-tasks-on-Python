@@ -5,3 +5,4 @@ while y == 'y':
   print('digits in number: ', *digits)
   print('sum of digits: ', sum(digits))
   y = input('restart?(y/n): ')
+  print('goodbye')
