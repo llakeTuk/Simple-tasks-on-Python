@@ -8,7 +8,8 @@ def leap(A):
     elif A % 400 == 0:
         print("Year is leap")
     else:
-        print("Year is not leap")     
+        print("Year is not leap")   
+  
 i = 'y'
 while i == 'y':
     leap(A)
